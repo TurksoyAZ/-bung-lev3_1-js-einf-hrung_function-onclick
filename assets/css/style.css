@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+  text-align: center;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#container{
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 25px;
+}
+
+section>div{
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  border-radius: 100%;
+  border: 1px solid #000;
+}
+section>div:hover{
+  box-shadow: 0 35px 100px;
+}
+
+
+#box1{
+  background-image: linear-gradient(to top right, rgb(0,132,78)50%, rgb(103,12,83) 50%);
+}
+#box2{
+  background-image: linear-gradient(to top right, rgb(60,57,90)50%, rgb(216,161,69) 50%);
+}
+#box3{
+  background-image: linear-gradient(to top right, rgb(1,0,27)50%, rgb(198,82,28) 50%);
+}
+#box4{
+  background-image: linear-gradient(to top right, rgb(11,5,70)50%, rgb(0,198,250) 50%);
+}
